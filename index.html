@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -44,16 +46,21 @@
 
     <section id="banner-text" class="flex items-center justify-center">
         <div>
-            <p class="text-9xl font-semibold text-white mb-4 title-anim-1"><span class="nrg">NRG</span>Hacks 2023</p>
-            <div class="flex justify-center">
+            <p class="text-9xl font-semibold text-white mb-4 title-anim-1 title"><span class="nrg">NRG</span>Hacks 2023</p>
+            <div id="mobile-title" class="hidden text-9xl font-semibold text-white mb-4 title-anim-1">
+                <p class="nrg">NRG</p>
+                <p>Hack</p>
+                <p class="text-3xl ml-2"><span class="title-anim-2">GWW,</span> <span class="title-anim-3">NHS</span> <span class="title-anim-4">& RHHS</span></p>
+            </div>
+            <div class="flex justify-center title">
                 <p class="text-3xl text-white font-semibold overflow-hidden"><span class="title-anim-2">GWW,</span> <span class="title-anim-3">NHS</span> <span class="title-anim-4">& RHHS</span></p>
             </div>
         </div>
     </section>
 
     <div id="slant" class="absolute z-0"></div>
-    <section id="info-section" class="relative bg-white flex justify-center">
-        <div class="flex">
+    <section id="info-section" class="relative bg-white flex justify-center px-4">
+        <div id="cards-div" class="flex">
             <div class="info-card p-2 mx-8">
                 <img alt="ooops image should be here" src="https://www.vancouverislandfreedaily.com/wp-content/uploads/2019/02/15759793_web1_190226-VNE-Battlesnake_1.jpg">
                 <div class="p-2 mt-2">
@@ -87,7 +94,7 @@
                 <div></div>
                 <div></div>
             </div>
-            <div class="flex">
+            <div id="prizes" class="flex">
                 <div id="junior">
                     <p class="text-xl font-semibold">Junior</p>
                     <p><span class="font-semibold">1st:</span> 25$ + NHS & GWW Announcements</p>
@@ -131,27 +138,27 @@
             <p class="text-3xl font-semibold mt-8">List of Judges</p>
         </div>
         <div class="flex justify-center w-screen">
-            <div class="dynamic-text">
+            <div class="dynamic-text judge-pfp">
                 <img class="judge-img" alt="" src="vincent.png">
                 <div class="flex justify-center"><p class="font-semibold">Vincent Qu</p></div>
             </div>
-            <div class="dynamic-text">
+            <div class="dynamic-text judge-pfp">
                 <img class="judge-img" alt="" src="dundee.png">
                 <div class="flex justify-center"><p class="font-semibold">Dundee Zhang</p></div>
             </div>
-            <div class="dynamic-text">
+            <div class="dynamic-text judge-pfp">
                 <img class="judge-img" alt="" src="enric.png">
                 <div class="flex justify-center"><p class="font-semibold">Enric Duong</p></div>
             </div>
-            <div class="dynamic-text">
+            <div class="dynamic-text judge-pfp">
                 <img class="judge-img" alt="" src="pranav.png">
                 <div class="flex justify-center"><p class="font-semibold">Pranav Upreti</p></div>
             </div>
-            <div class="dynamic-text">
+            <div class="dynamic-text judge-pfp">
                 <img class="judge-img" alt="" src="andrew.png">
                 <div class="flex justify-center"><p class="font-semibold">Andrew Chu</p></div>
             </div>
-            <div class="dynamic-text">
+            <div class="dynamic-text judge-pfp">
                 <img class="judge-img" alt="" src="josh.png">
                 <div class="flex justify-center"><p class="font-semibold">Josh Wang</p></div>
             </div>

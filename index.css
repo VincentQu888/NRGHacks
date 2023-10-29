@@ -7,6 +7,18 @@
   }
 }
 
+@keyframes title-background-pan-mobile{
+  0%{
+    transform: translateX(15%);
+  }
+  50%{
+    transform: translateX(-10%);
+  }
+  100%{
+    transform: translateX(15%);
+  }
+}
+
 @keyframes slide-in{
   from{
     transform: translateY(15%);
@@ -36,6 +48,111 @@ body{
   overflow-x: hidden;
   color: #0a2540;
 }
+
+@media (max-width: 1300px) {
+  #info-section{
+    width: 100vw;
+  }
+
+  body{
+  }
+
+  #banner{
+    animation: title-background-pan-mobile 10s ease-in-out infinite !important; 
+  }
+
+  #diagonal-line{
+    display: none !important;
+  }
+
+  #nav{
+    display: none !important;
+  }
+
+  #slant{
+    display: none;
+  }
+
+  #back-to-top-button{
+    display: none;
+  }
+
+  #cards-div{
+    display: block;
+  }
+  
+  .title{
+    display: none;
+    animation: none !important;
+    opacity: 0 !important;
+  }
+
+  #mobile-title{
+    display: block !important;
+  }
+
+  #shape{
+    display: none;
+  }
+
+  #prizes{
+    display: block;
+  }
+
+  #junior{
+    transform: translateX(0rem) !important;
+  }
+  
+  #senior{
+    transform: translateX(0rem) !important;
+  }
+
+  #division-title{
+    transform: translateX(0rem) !important;
+  }
+
+  #division-section{
+    padding: 1rem;
+    display: block;
+  }
+
+  #divison-seperation{
+    width: 100vw !important;
+    margin-left: 0rem !important;
+  }
+
+  #registration-section{
+    display: block !important;
+    width: 100vw !important;
+    padding: 1rem;
+  }
+
+  #registration-section div{
+    display: block !important;
+    width: 90vw !important;
+  }
+
+  .judge-img{
+    border-radius: 5rem !important;
+    height: 5rem !important;
+    width: 5rem !important;
+    box-shadow: 0px 0px 20px 5px rgba(57, 81, 94, 0.18);
+    margin-bottom: 0.5rem !important;
+  }
+
+  .judge-pfp{
+    margin-bottom: 1rem;
+  }
+
+  .dynamic-text{
+    font-size: 1rem !important;
+  }
+
+  .info-card{
+    width: 19rem !important;
+  }
+}
+
 
 .break{
   flex-basis: 100%;
@@ -255,12 +372,6 @@ body{
   width: 100vw;
 }
 
-@media (max-width: 1300px) {
-  #slant{
-    display: none;
-  }
-}
-
 #slant{
   height: 58rem;
   width: 200vw;
@@ -272,7 +383,11 @@ body{
 
 #info-section{
   margin-top: 3rem;
-  height: 27rem;
+  height: min-content;
+}
+
+#cards-div{
+
 }
 
 .info-card{
@@ -281,12 +396,13 @@ body{
   width: 24rem;
   background-color: white;
   transform: translateY(-11.735rem);
+  margin-bottom: 1rem;
 }
 
 #division-section{
   width: 100vw;
   height: min-content;
-  margin-top: -1rem;
+  margin-top: -5rem;
 }
 
 #division-title{
