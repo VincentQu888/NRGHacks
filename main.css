@@ -639,8 +639,8 @@ video {
   padding: 0.5rem;
 }
 
-.pt-8 {
-  padding-top: 2rem;
+.pb-32 {
+  padding-bottom: 8rem;
 }
 
 .text-3xl {
@@ -665,11 +665,6 @@ video {
 .text-blue-600 {
   --tw-text-opacity: 1;
   color: rgb(37 99 235 / var(--tw-text-opacity));
-}
-
-.text-purple-700 {
-  --tw-text-opacity: 1;
-  color: rgb(126 34 206 / var(--tw-text-opacity));
 }
 
 .text-white {

@@ -94,13 +94,13 @@ body{
 
 #back-to-top-button{
   position: fixed;
-  height: 5rem;
-  width: 5rem;
+  height: 4.167vw;
+  width: 4.167vw;
   z-index: 100;
-  right: 2.5rem;
-  bottom: 2.5rem;
+  right: 2.083vw;
+  bottom: 2.083vw;
   background-color: #5d12f3;
-  border-radius: 5rem;
+  border-radius: 7.407vh;
   box-shadow: 0rem 0rem 4rem rgba(0 0 0 / 50%);
   cursor: pointer;
   transition: 500ms;
@@ -115,20 +115,20 @@ body{
 }
 
 #back-to-top-arrow{
-  height: 3rem;
-  width: 3rem;
+  height: 2.5vw;
+  width: 2.5vw;
   background-color: 0;
-  border-top: 0.5rem solid whitesmoke;
-  border-left: 0.5rem solid whitesmoke;
-  transform: rotate(45deg) translate(3rem, 0.5rem);
+  border-top: 0.417vw solid whitesmoke;
+  border-left: 0.417vw solid whitesmoke;
+  transform: rotate(45deg) translate(2.5vw, 0.417vw);
   scale: 50%;
 }
 
 
 #banner{
   z-index: -10;
-  height: 100vh;
-  width: 100vw;
+  height: 120rem;
+  width: 120rem;
   animation: title-background-pan 30s linear infinite; 
 }
 
@@ -142,7 +142,7 @@ body{
 #banner div{
   position: absolute;
   border-radius: 50%;
-  filter: blur(3rem);
+  filter: blur(2.5vw);
 }
 
 #banner div:nth-child(1){
@@ -241,34 +241,52 @@ body{
   background: linear-gradient(to bottom left, #3a215f, #141414);
 }
 
+#banner div:nth-child(13){
+  height: 100%;
+  width: 400vw;
+  background: linear-gradient(to bottom left, #3a215f, #141414);
+  border-radius: 0;
+  filter: blur(0);
+  z-index: -1;
+}
+
 #banner-text{
-  height: calc(100vh - 12rem);
+  height: 46.2rem; 
+  width: 100vw;
+}
+
+@media (max-width: 1300px) {
+  #slant{
+    display: none;
+  }
 }
 
 #slant{
-  height: 100vh;
+  height: 58rem;
   width: 200vw;
   background-color: white;
   /*background-color: #3a215f;*/
   rotate: -10deg;
-  transform: translate(-50vw, -30vh);
+  transform: translate(-60rem, -17.45rem);
 }
 
 #info-section{
   margin-top: 3rem;
-  height: 40vh;
+  height: 27rem;
 }
 
 .info-card{
   box-shadow: 0px 0px 20px 5px rgba(57, 81, 94, 0.18);
   height: min-content;
-  width: 20vw;
+  width: 24rem;
   background-color: white;
-  transform: translateY(calc(-15vh - 3rem));
+  transform: translateY(-11.735rem);
 }
 
 #division-section{
+  width: 100vw;
   height: min-content;
+  margin-top: -1rem;
 }
 
 #division-title{
@@ -306,7 +324,7 @@ body{
 }
 
 #shape{
-  height: 18vh;
+  height: 10.5rem;
 }
 
 #junior{
@@ -319,7 +337,7 @@ body{
 
 #diagonal-line{
   background-color: rgba(211, 211, 211, 0.5);
-  width: 200vw;
+  width: 130rem;
   height: 0.25rem;
   position: absolute;
   rotate: -10deg;
@@ -332,7 +350,8 @@ body{
 }
 
 #registration-section{
-  height: 65vh;
+  height: min-content;
+  width: 100vw;
 }
 
 #registration-info{
@@ -340,12 +359,13 @@ body{
 }
 
 .judge-img{
-  border-radius: 5rem;
-  height: 5rem;
-  width: 5rem;
+  border-radius: 4.167vw;
+  height: 4.167vw;
+  width: 4.167vw;
   box-shadow: 0px 0px 20px 5px rgba(57, 81, 94, 0.18);
-  margin-left: 2rem;
-  margin-right: 2rem;
+  margin-left: 1.667vw;
+  margin-right: 1.667vw;
+  margin-bottom: 0.417vw;
 }
 
 .title-anim-1{
@@ -387,4 +407,14 @@ body{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     white-space: nowrap;
+}
+
+.footer{
+  height: 31vh;
+  position: relative;
+  z-index: 20;
+}
+
+.dynamic-text{
+  font-size: 0.833vw;
 }
