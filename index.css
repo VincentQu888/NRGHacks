@@ -267,7 +267,7 @@ body{
   width: 90%;
   top: -25%;
   left: -25%;
-  background: linear-gradient(to top left, #3a215f, #141414);
+  background: linear-gradient(to top left, #252c4d, #0c0d2e);
 }
 
 #banner div:nth-child(2){
@@ -275,7 +275,7 @@ body{
   width: 80%;
   top: -60%;
   right: -20%;
-  background: linear-gradient(to top right, #3a215f, #141414);
+  background: linear-gradient(to top right, #252c4d, #0c0d2e);
 }
 
 #banner div:nth-child(3){
@@ -283,7 +283,7 @@ body{
   width: 95%;
   right: -30%;
   bottom: -30%;
-  background: linear-gradient(to top right, #3a215f, #141414);
+  background: linear-gradient(to top right, #252c4d, #0c0d2e);
 }
 
 #banner div:nth-child(4){
@@ -291,7 +291,7 @@ body{
   width: 75%;
   left: -20%;
   bottom: -40%;
-  background: linear-gradient(to bottom left, #3a215f, #141414);
+  background: linear-gradient(to bottom left, #252c4d, #0c0d2e);
 }
 
 #banner div:nth-child(5){
@@ -299,7 +299,7 @@ body{
   width: 90%;
   top: -25%;
   left: -125%;
-  background: linear-gradient(to top left, #3a215f, #141414);
+  background: linear-gradient(to top left, #252c4d, #0c0d2e);
 }
 
 #banner div:nth-child(6){
@@ -307,7 +307,7 @@ body{
   width: 80%;
   top: -60%;
   right: 80%;
-  background: linear-gradient(to top right, #3a215f, #141414);
+  background: linear-gradient(to top right, #252c4d, #0c0d2e);
 }
 
 #banner div:nth-child(7){
@@ -315,7 +315,7 @@ body{
   width: 95%;
   right: 70%;
   bottom: -30%;
-  background: linear-gradient(to top right, #3a215f, #141414);
+  background: linear-gradient(to top right, #252c4d, #0c0d2e);
 }
 
 #banner div:nth-child(8){
@@ -323,7 +323,7 @@ body{
   width: 75%;
   left: -120%;
   bottom: -40%;
-  background: linear-gradient(to bottom left, #3a215f, #141414);
+  background: linear-gradient(to bottom left, #252c4d, #0c0d2e);
 }
 
 #banner div:nth-child(9){
@@ -331,7 +331,7 @@ body{
   width: 90%;
   top: -25%;
   left: 75%;
-  background: linear-gradient(to top left, #3a215f, #141414);
+  background: linear-gradient(to top left, #252c4d, #0c0d2e);
 }
 
 #banner div:nth-child(10){
@@ -339,7 +339,7 @@ body{
   width: 80%;
   top: -60%;
   right: -120%;
-  background: linear-gradient(to top right, #3a215f, #141414);
+  background: linear-gradient(to top right, #252c4d, #0c0d2e);
 }
 
 #banner div:nth-child(11){
@@ -347,7 +347,7 @@ body{
   width: 95%;
   right: -130%;
   bottom: -30%;
-  background: linear-gradient(to top right, #3a215f, #141414);
+  background: linear-gradient(to top right, #252c4d, #0c0d2e);
 }
 
 #banner div:nth-child(12){
@@ -355,13 +355,13 @@ body{
   width: 75%;
   left: 80%;
   bottom: -40%;
-  background: linear-gradient(to bottom left, #3a215f, #141414);
+  background: linear-gradient(to bottom left, #252c4d, #0c0d2e);
 }
 
 #banner div:nth-child(13){
   height: 100%;
   width: 400vw;
-  background: linear-gradient(to bottom left, #3a215f, #141414);
+  background: linear-gradient(to bottom left, #252c4d, #0c0d2e);
   border-radius: 0;
   filter: blur(0);
   z-index: -1;
@@ -376,7 +376,7 @@ body{
   height: 58rem;
   width: 200vw;
   background-color: white;
-  /*background-color: #3a215f;*/
+  /*background-color: #252c4d;*/
   rotate: -10deg;
   transform: translate(-60rem, -17.45rem);
 }
@@ -511,18 +511,31 @@ body{
 }
 
 .nrg{
-  animation: background-pan 3s linear infinite;
+  animation: background-pan 2.5s linear infinite;
     background: linear-gradient(
         to right,
-        #8212f3,
-        #5d12f3,
-        #3712f3,
-        #8212f3
+        #3643ff,
+        #7e3cfa,
+        #3643ff
     );
     background-size: 200%;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     white-space: nowrap;
+}
+
+.green-gradient{
+  animation: background-pan 2s linear infinite;
+  background: linear-gradient(
+      to right,
+      #73cf44,
+      #44cfc1,
+      #73cf44
+  );
+  background-size: 200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  white-space: nowrap;
 }
 
 .footer{
@@ -533,4 +546,8 @@ body{
 
 .dynamic-text{
   font-size: 0.833vw;
+}
+
+.text-green{
+  color: #42cf7a;
 }
