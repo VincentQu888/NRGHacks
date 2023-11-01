@@ -402,7 +402,7 @@ body{
 #division-section{
   width: 100vw;
   height: min-content;
-  margin-top: -5rem;
+  margin-top: -7.5rem;
 }
 
 #division-title{
@@ -478,7 +478,7 @@ body{
   border-radius: 4.167vw;
   height: 4.167vw;
   width: 4.167vw;
-  box-shadow: 0px 0px 20px 5px rgba(57, 81, 94, 0.18);
+  box-shadow: 0px 0px 10px 5px rgba(57, 81, 94, 0.2);
   margin-left: 1.667vw;
   margin-right: 1.667vw;
   margin-bottom: 0.417vw;
