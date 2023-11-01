@@ -10,8 +10,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/main.css">
 
     <title>NRGHacks</title>
 </head>
@@ -61,27 +61,29 @@
     <div id="slant" class="absolute z-0"></div>
     <section id="info-section" class="relative bg-white flex justify-center px-4">
         <div id="cards-div" class="flex">
-            <div class="info-card p-2 mx-8">
-                <img alt="ooops image should be here" src="card1img.png">
-                <div class="p-2 mt-2">
-                    <p class="font-semibold text-xl mb-2">What is NRGHacks?</p>
-                    <p>NRGHacks is a single day, <span class="nrg">interschool</span>, hackathon style event, hosted at Dr. G.W. Williams Secondary School on Friday November 24th 2023 from 12:30pm to 8:30pm.</p>
+            <!--<div class="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1">-->
+                <div class="info-card p-2 mx-8">
+                    <img alt="ooops image should be here" src="images/card1img.png">
+                    <div class="p-2 mt-2">
+                        <p class="font-semibold text-xl mb-2">What is NRGHacks?</p>
+                        <p>NRGHacks is a single day, <span class="nrg">interschool</span>, hackathon style event, hosted at Dr. G.W. Williams Secondary School on Friday November 24th 2023 from 12:30pm to 8:30pm.</p>
+                    </div>
                 </div>
-            </div>
-            <div class="info-card p-2 mx-8">
-                <img alt="ooops image should be here" src="card2img.png">
-                <div class="p-2 mt-2">
-                    <p class="font-semibold text-xl mb-2">Events</p>
-                    <p>NRGHacks will have multiple events running <span class="green-gradient">parallel</span> to project development. Alongside workshops for students to learn web development, game design, and design process, students will work in groups of 5 or less people to develop a <span class="nrg">project</span> relating to the hackathon theme.</p>
+                <div class="info-card p-2 mx-8">
+                    <img alt="ooops image should be here" src="images/card2img.png">
+                    <div class="p-2 mt-2">
+                        <p class="font-semibold text-xl mb-2">Events</p>
+                        <p>NRGHacks will have multiple events running <span class="green-gradient">parallel</span> to project development. Alongside workshops for students to learn web development, game design, and design process, students will work in groups of 5 or less people to develop a <span class="nrg">project</span> relating to the hackathon theme.</p>
+                    </div>
                 </div>
-            </div>
-            <div class="info-card p-2 mx-8">
-                <img alt="ooops image should be here" src="gwwilliams.jpg">
-                <div class="p-2 mt-2">
-                    <p class="font-semibold text-xl mb-2">Details</p>
-                    <p>A <span class="nrg">hackathon</span> is a coding competition where participants solve <span class="green-gradient">real world</span> coding problems. The event will be held in the library of Dr. G.W. Williams S.S. located at 39 Dunning Ave, Aurora, ON L4G 1A2 and will be split into skill groups of Junior and Senior. There is an entrance fee as well.</p>
+                <div class="info-card p-2 mx-8">
+                    <img alt="ooops image should be here" src="images/gwwilliams.jpg">
+                    <div class="p-2 mt-2">
+                        <p class="font-semibold text-xl mb-2">Details</p>
+                        <p>A <span class="nrg">hackathon</span> is a coding competition where participants solve <span class="green-gradient">real world</span> coding problems. The event will be held in the library of Dr. G.W. Williams S.S. located at 39 Dunning Ave, Aurora, ON L4G 1A2 and will be split into skill groups of Junior and Senior. There is an entrance fee as well.</p>
+                    </div>
                 </div>
-            </div>
+            <!--</div>-->    
         </div>
     </section>
 
@@ -138,30 +140,33 @@
             <p class="text-3xl font-semibold mt-8">List of Judges</p>
         </div>
         <div class="flex justify-center w-screen">
-            <div class="dynamic-text judge-pfp">
-                <img class="judge-img" alt="" src="vincent.png">
-                <div class="flex justify-center"><p class="font-semibold">Vincent Qu</p></div>
-            </div>
-            <div class="dynamic-text judge-pfp">
-                <img class="judge-img" alt="" src="dundee.png">
-                <div class="flex justify-center"><p class="font-semibold">Dundee Zhang</p></div>
-            </div>
-            <div class="dynamic-text judge-pfp">
-                <img class="judge-img" alt="" src="enric.png">
-                <div class="flex justify-center"><p class="font-semibold">Enric Duong</p></div>
-            </div>
-            <div class="dynamic-text judge-pfp">
-                <img class="judge-img" alt="" src="pranav.png">
-                <div class="flex justify-center"><p class="font-semibold">Pranav Upreti</p></div>
-            </div>
-            <div class="dynamic-text judge-pfp">
-                <img class="judge-img" alt="" src="andrew.png">
-                <div class="flex justify-center"><p class="font-semibold">Andrew Chu</p></div>
-            </div>
-            <div class="dynamic-text judge-pfp">
-                <img class="judge-img" alt="" src="josh.png">
-                <div class="flex justify-center"><p class="font-semibold">Josh Wang</p></div>
-            </div>
+            <!--<div class="grid lg:grid-cols-6 md:grid-cols-3 sm:grid-cols-1">-->
+                <div class="dynamic-text judge-pfp">
+                    <img class="judge-img" alt="" src="images/judges/vincent.png">
+                    <div class="flex justify-center"><p class="font-semibold">Vincent Qu</p></div>
+                </div>
+                <div class="dynamic-text judge-pfp">
+                    <img class="judge-img" alt="" src="images/judges/dundee.png">
+                    <div class="flex justify-center"><p class="font-semibold">Dundee Zhang</p></div>
+                </div>
+                <div class="dynamic-text judge-pfp">
+                    <img class="judge-img" alt="" src="images/judges/enric.png">
+                    <div class="flex justify-center"><p class="font-semibold">Enric Duong</p></div>
+                </div>
+                <div class="dynamic-text judge-pfp">
+                    <img class="judge-img" alt="" src="images/judges/pranav.png">
+                    <div class="flex justify-center"><p class="font-semibold">Pranav Upreti</p></div>
+                </div>
+                <div class="dynamic-text judge-pfp">
+                    <img class="judge-img" alt="" src="images/judges/andrew.png">
+                    <div class="flex justify-center"><p class="font-semibold">Andrew Chu</p></div>
+                </div>
+                <div class="dynamic-text judge-pfp">
+                    <img class="judge-img" alt="" src="images/judges/josh.png">
+                    <div class="flex justify-center"><p class="font-semibold">Josh Wang</p></div>
+                </div>
+            <!--</div>-->
+            
         </div>
     </section>
 
